@@ -4,11 +4,34 @@ body{
 }
 header{
     top: 0px;
+    text-align: center;
 }
-
-
 #minha_foto{
-    width: 150px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #BFC0C0;
+}
+#licoes_aprendidas{
+    max-width: 40%;
+    padding:30px;
+    background-color: #4F5D75;
+    margin-left: 100px;
+    display: inline-block;
+    color: white;
+}
+#licoes_a_aprender{
+    max-width: 40%;
+    padding:30px;
+    background-color: #EF8354;
+    margin-left: 10px;
+    display: inline-block;
+}
+table{
+    border: 2px solid black;
+    margin: auto;
+}
+tr, th, td{
+    border: 2px solid black;
 }
 .lado-esquerdo{
     max-width: 40%;
@@ -21,4 +44,10 @@ header{
     display: inline-block;
     vertical-align: top;
     margin: 5px;
+}
+ul,ol{
+    font-size: large;
+}
+li{
+    font-size: medium;
 }
