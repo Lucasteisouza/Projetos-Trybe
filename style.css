@@ -8,12 +8,14 @@ body {
   text-align: center;
   position: fixed;
   width: 100%;
-  background-color: silver;
+  background-color: darkgray;
+	opacity: 50%;
 }
 
 #titulo {
   text-align: center;
   display: inline-block;
+	vertical-align: middle;
 }
 
 #minha_foto {
@@ -21,6 +23,7 @@ body {
   border-radius: 50%;
   border: 5px solid silver;
   display: inline-block;
+	vertical-align: middle;
 }
 
 #listas {
@@ -30,10 +33,10 @@ body {
 #licoes_aprendidas {
   max-width: 40%;
   padding: 30px;
-  background-color: rgb greenyellow;
+  background-color: lightgreen;
   margin-left: 100px;
   display: inline-block;
-  color: white;
+	vertical-align: top;
 }
 
 #licoes_a_aprender {
@@ -42,16 +45,30 @@ body {
   background-color: lightcoral;
   margin-left: 150px;
   display: inline-block;
+	vertical-align: top;
+}
+p{
+	text-align: justify;
 }
 
 table {
   border: 2px solid black;
   margin: auto;
   line-height: 30px;
+	margin-top: 20px;
+	background-color: darkgray;
+	text-align: center;
+}
+
+caption {
+	font-size: large;
+	font-weight: 700;
+	text-decoration: underline 3px;
 }
 
 tr , th , td {
   border: 2px solid black;
+	padding: 20px;
 }
 
 .lado-esquerdo {
@@ -65,7 +82,7 @@ tr , th , td {
   max-width: 40%;
   display: inline-block;
   vertical-align: top;
-  margin: 5px;
+  margin: 10px 50px 10px ;
 }
 
 ul , ol {
