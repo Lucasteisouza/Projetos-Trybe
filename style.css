@@ -2,9 +2,11 @@ body{
     background-color: rgb(253,251,251);
     font-family: 'Arvo', serif;
 }
-header{
+#cabecalho{
     top: 0px;
     text-align: center;
+    background-color:#BFC0C0;
+    margin:0px 100px;
 }
 #minha_foto{
     width: 100px;
@@ -23,7 +25,7 @@ header{
     max-width: 40%;
     padding:30px;
     background-color: #EF8354;
-    margin-left: 10px;
+    margin-left: 150px;
     display: inline-block;
 }
 table{
@@ -37,7 +39,7 @@ tr, th, td{
     max-width: 40%;
     display: inline-block;
     vertical-align: top;
-    margin:5px;
+    margin-left:100px;
 }
 .lado-direito{
     max-width: 40%;
