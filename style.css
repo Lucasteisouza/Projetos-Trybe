@@ -10,3 +10,15 @@ header{
 #minha_foto{
     width: 150px;
 }
+.lado-esquerdo{
+    max-width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin:5px;
+}
+.lado-direito{
+    max-width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
